@@ -2,6 +2,6 @@ node_modules
 .firebase
 dist
 yarn.lock
-yarn-error.log
+*.log
 README.md
 git
