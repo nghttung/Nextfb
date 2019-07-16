@@ -226,3 +226,18 @@
 [debug] [2019-07-16T01:23:56.283Z] Functions runtime initialized.
 [debug] [2019-07-16T01:23:56.285Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
 [debug] [2019-07-16T01:23:56.410Z] firebase-admin has been stubbed.
+[info] [hosting] Rewriting / to http://localhost:5001/nextfb01/us-central1/serverapp for local Function serverapp
+[debug] [2019-07-16T01:28:29.839Z] Accepted request GET /nextfb01/us-central1/serverapp/ --> serverapp
+[debug] [2019-07-16T01:28:30.562Z] Functions runtime initialized.
+[info] i  functions: Beginning execution of "serverapp"
+[debug] [2019-07-16T01:28:30.564Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[debug] [2019-07-16T01:28:30.668Z] firebase-admin has been stubbed.
+[debug] [2019-07-16T01:28:30.843Z] Trigger "serverapp" has been found, beginning invocation!
+[debug] [2019-07-16T01:28:30.843Z] 
+[debug] [2019-07-16T01:28:30.843Z] Running serverapp in mode HTTPS
+[debug] [2019-07-16T01:28:30.852Z] {"socketPath":"\\\\?\\pipe\\F:\\NextFb\\App\\nextfunctions\\functions-nextjs\\3156"}
+[debug] [2019-07-16T01:28:30.855Z] [functions] Runtime ready! Sending request! {"socketPath":"\\\\?\\pipe\\F:\\NextFb\\App\\nextfunctions\\functions-nextjs\\3156"}
+[debug] [2019-07-16T01:28:30.868Z] Ephemeral server used!
+[debug] [2019-07-16T01:28:30.869Z] Bodyundefined
+[debug] [2019-07-16T01:28:31.092Z] Ephemeral server survived.
+[info] i  functions: Finished "serverapp" in ~1s
