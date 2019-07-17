@@ -1,10 +1,6 @@
 import Link from "next/link";
-import Router from 'next/router'
-import {
-  Navbar,
-  Nav,
-  NavDropdown
-} from "react-bootstrap";
+import Router from "next/router";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 
 const rightLinks = [
   { href: "/about", label: "About" },
@@ -14,11 +10,22 @@ const rightLinks = [
   return link;
 });
 
-
 const HeaderMenu = () => (
   <>
-    <Navbar className="fixed-top" collapseOnSelect expand="lg" bg="success" variant="dark" >
-    <span className="d-lg-none" style={{color: "white", marginRight: "5px"}} onClick={() => Router.back()}><i className="fas fa-arrow-left"></i></span>
+    <Navbar
+      className="fixed-top"
+      collapseOnSelect
+      expand="lg"
+      bg="success"
+      variant="dark"
+    >
+      <span
+        className="d-lg-none"
+        style={{ color: "white", marginRight: "5px" }}
+        onClick={() => Router.back()}
+      >
+        <i className="fas fa-arrow-left" />
+      </span>
       <Link href="/" passHref>
         <Navbar.Brand>MBND</Navbar.Brand>
       </Link>
@@ -30,7 +37,20 @@ const HeaderMenu = () => (
               <Nav.Link>{label}</Nav.Link>
             </Link>
           ))}
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
+
+          <Link
+            href={{ pathname: "/bangtin/2", query: { id: "2" } }}
+            as="/bangtin"
+            passHref
+          >
+            <Nav.Link>Bang Tin</Nav.Link>
+          </Link>
+          <Link href="/bangtin/2/ThanhTung" passHref>
+            <Nav.Link>bangtin/2/ThanhTung</Nav.Link>
+          </Link>
+          <Link href="/bangtin/vkyeu/MyDung" passHref>
+            <Nav.Link>angtin/vkyeu/MyDung</Nav.Link>
+          </Link>
           <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
