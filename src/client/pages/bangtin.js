@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import App from "../components/App";
+import Layout from "../components/Layout";
 import Bangtin from "../components/Bangtin";
 import BangtinId from "../components/BangtinId";
 import BangtinIdSlug from "../components/BangtinIdSlug";
 
 export default class extends Component {
-  static getInitialProps({ query: { datatest } }) {
+  static async getInitialProps({ query: { datatest } }) {
     return { datatest };
   }
 
@@ -13,7 +13,7 @@ export default class extends Component {
     const postId = this.props.datatest.id;
     const slug = this.props.datatest.slug;
     return (
-      <App>
+      <Layout  title="Bang tin">
         {postId && slug ? (
           <BangtinIdSlug postId={postId} slug={slug} />
         ) : postId ? (
@@ -21,7 +21,7 @@ export default class extends Component {
         ) : (
           <Bangtin />
         )}
-      </App>
+      </Layout>
     );
   }
 }

@@ -1,8 +1,7 @@
 import React from "react";
-import App from "../components/App";
-
+import Layout from "../components/Layout";
 export default () => (
-  <App>
+  <Layout title="About">
     <p>About Page</p>
-  </App>
+  </Layout>
 );
