@@ -3,7 +3,36 @@ import Layout from '../components/Layout'
 const contact = () => {
     return (
         <Layout title="Contact" style="contactstyle">
-            Contact Pages
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
+            <p>Contact Pages</p>
         </Layout>
     )
 }
