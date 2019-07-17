@@ -17,8 +17,8 @@ const rightLinks = [
 
 const HeaderMenu = () => (
   <>
-    <Navbar collapseOnSelect expand="lg" bg="success" variant="dark">
-    <span style={{color: "white", marginRight: "5px"}} onClick={() => Router.back()}><i className="fas fa-arrow-left"></i></span>
+    <Navbar className="fixed-top" collapseOnSelect expand="lg" bg="success" variant="dark" >
+    <span className="d-lg-none" style={{color: "white", marginRight: "5px"}} onClick={() => Router.back()}><i className="fas fa-arrow-left"></i></span>
       <Link href="/" passHref>
         <Navbar.Brand>MBND</Navbar.Brand>
       </Link>

@@ -1,10 +1,8 @@
 const Footer = () => (
   <>
-    <script src="https://unpkg.com/react/umd/react.production.min.js" />
-
-    <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js" />
-
-    <script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <script src="/js/navbarhide.js" />
   </>
 );
 

@@ -35,8 +35,9 @@ const Head = props => (
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
     />
+    <link rel="stylesheet" href={"/css/navstyle.css"} />
     {props.style ? (
-      <link rel="stylesheet" href={"/static/css/" + props.style + ".css"} />
+      <link rel="stylesheet" href={"/css/" + props.style + ".css"} />
     ) : (
       ""
     )}
